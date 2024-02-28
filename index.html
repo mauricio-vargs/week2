@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="assets/img/miki.png" type="image/x-icon">
+    <title>Shugo Chara</title>
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Escolha um Shugo Chara!</h1>
+    </header>
+
+    <main>
+        <div class="card-deck">
+            <div class="character-card ran">
+                <div class="flipper" id="Ran">
+                    <div class="front">
+                        <img class="character-img"src="./assets/img/Ran.png" alt="">
+                    </div>
+                    <div class="back">
+                        <p class="description">Ran (ラン) was Amu Hinamori's first Guardian Character to hatch. She represents Amu's desire to be more honest and athletic.</p>
+                    </div>
+                </div>
+                <p class="character-name">Ran</p>
+                <button class="select"  onclick="selectRan()">SELECT</button>
+            </div>
+            <div class="character-card miki">
+                <div class="flipper" id="Miki">
+                    <div class="front">
+                        <img class="character-img"src="./assets/img/Miki.png" alt="">
+                    </div>
+                    <div class="back">
+                        <p class="description">
+                            Miki (ミキ; Miki) is Amu Hinamori's second Guardian Character. She represents Amu's desire to be cool, artistic, and also disobedient and level-headed.
+                        </p>
+                    </div>
+                </div>
+                <p class="character-name">Miki</p>
+                <button class="select" onclick="selectMiki()">SELECT</button>
+            </div>
+            <div class="character-card su">
+                <div class="flipper" id="Su">
+                    <div class="front">
+                        <img class="character-img"src="./assets/img/Su.png" alt="">
+                    </div>
+                    <div class="back">
+                        <p class="description">
+                            Su (スゥ, Suu) is Amu Hinamori's third Guardian Character. She represents Amu's desire to be more caring and improve her domestic skills.
+                        </p>
+                    </div>
+                </div>
+                <p class="character-name">Su</p>
+               <button class="select" onclick="selectSu()" id="Su">SELECT</button>
+            </div>
+        </div>
+
+
+        
+    </main>
+</body>
+</html>
