@@ -100,9 +100,11 @@ header {
     width: 100%;
     color: #fff
 }
+.actions {
+    display: flex;
+}
 
-
-.select {
+.btn {
     font-family: "Micro 5", sans-serif;
     font-weight: 400;
     font-style: normal;
